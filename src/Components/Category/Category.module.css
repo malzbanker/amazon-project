@@ -23,10 +23,22 @@
     font-weight: bold;
     color: rgb(0,132,200);
 }
-.category_container{
+/* .category_container{
     position: relative;
     margin-top: -10px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     place-items: center;
-}
+} */
+
+.category_container {
+    position: relative;
+    margin-top: -10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    max-width: 1600px;
+    gap: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    place-items: center;
+  }

@@ -73,7 +73,7 @@ type:Type.REMOVE_FROM_BASKET,id
                 <input type="checkbox" />
                 <small>This order contain a gift</small>
               </span>
-              <Link to='/payments'>Continue to checkout</Link>
+              <Link to='/payment'>Continue to checkout</Link>
             </div>
           )}
     </section>

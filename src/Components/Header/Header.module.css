@@ -47,10 +47,10 @@
     overflow: hidden;
     width: 100%;
     flex: 1;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 .search select,.search input{
-   padding: 4px;
+   padding: 10px;
    font-weight: bold;
    outline: 1px solid white;
 }
@@ -64,7 +64,7 @@
 }
 
 .search svg{
-    padding: 5px;
+    padding: 7px;
     background: #fabd69;
     color: #101010;
 }
